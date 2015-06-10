@@ -1,9 +1,24 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.jumbotron {
+    background-image: url('background.png');
+}
+
 .jumbotron h1 {
     font-size: 50px;
+    font-weight: 700;
+}
+
+.jumbotron h1 small {
+    font-weight: 700;
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
+    margin: 0 0 15px;
 }
 
 /* Customize container */
@@ -16,6 +31,18 @@ p {
     max-width: 730px;
   }
 }
+
+/* Customize container */
+@media (min-width: 1000px) {
+  .container {
+    max-width: 900px;
+  }
+
+  .jumbotron .container {
+    max-width: 900px;
+  }
+}
+
 
 .videowrapper {
     float: none;

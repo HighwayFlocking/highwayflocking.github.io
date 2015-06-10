@@ -17,6 +17,7 @@
     <!-- Custom styles for this template -->
     <link href="stylesheets/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -27,6 +28,8 @@
 
   <body>
 
+    <a href="https://github.com/HighwayFlocking/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
@@ -36,8 +39,8 @@
         </div>
         <br>
         <p>
-          <a class="btn btn-primary btn-lg" href="#" role="button"><i class="fa fa-download"></i> Download Setup</a>
-          <a class="btn btn-primary btn-lg" href="#" role="button"><i class="fa fa-file-code-o"></i> Download Source Code</a>
+          <a class="btn btn-primary btn-lg" href="https://github.com/HighwayFlocking/HighwayFlocking/releases/download/v1.0/HighwayFlockingSetup-1.0.exe" role="button"><i class="fa fa-download"></i> Download Setup</a>
+          <a class="btn btn-primary btn-lg" href="https://github.com/HighwayFlocking/HighwayFlocking" role="button"><i class="fa fa-github"></i> Source Code</a>
         </p>
       </div>
     </div>
@@ -46,7 +49,7 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-12">
-          <h3><a id="whatsthis" class="anchor" href="#whatsthis" aria-hidden="true"><span class="octicon octicon-link"></span></a>What's This Project About</h3>
+          <h2><a id="whatsthis" class="anchor" href="#whatsthis" aria-hidden="true"><span class="octicon octicon-link"></span></a>What's This Project About</h2>
 
           <p>What would happen to road traffic if we removed lanes? In this project we have investigated possible effects of automatic vehicles and removal of lanes. The goal of the project have been to increase the efficiency of already existing roads, while at the same time reduce the costs of building new ones.</p>
 
@@ -56,12 +59,12 @@
 
           <p>The road traffic is composed of 3 types of vehicles, personal cars, buses, and emergency vehicles. They all drive at different speeds, the bus is the largest vehicle, and the personal car and the emergency vehicle have the same size. The personal car is driving 60km/h, the bus 72km/h, and the emergency vehicle is driving 90km/h. The reason for having multiple different vehicles driving at different velocities, is that we wanted to show how flocking would work with diverse traffic. The 72% increase in throughput was achieved with diverse asymmetric traffic, while we only tested symmetric traffic with the personal cars. The throughput increase for the symmetric traffic was 56%. We do believe that some of the throughput increase is due to automatic vehicles being more effective than human drivers, and not solely the achievement of flocking alone.</p>
 
-          <h3>
-          <a id="implementation" class="anchor" href="#implementation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Implementation</h3>
+          <h2>
+          <a id="implementation" class="anchor" href="#implementation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Implementation</h2>
           <p>For implementing the simulations we have used <a href="https://www.unrealengine.com/what-is-unreal-engine-4" target="_blank">Unreal Engine 4</a>. We created a roughly 400m long road segment with curves where we had vehicles driving in both directions. The personal cars had to avoid each other, yield to emergency vehicles, yield to buses, and of course remain on the road the whole time. We also implemented an entrance ramp and demonstrated that steering behaviors can handle merging traffic. </p>
 
-          <h3>
-          <a id="authors" class="anchor" href="#authors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors</h3>
+          <h2>
+          <a id="authors" class="anchor" href="#authors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors</h2>
 
           <p>This project is the result of a master's project by Sindre Ilebekk Johansen (<a href="https://github.com/sindreij" class="user-mention">@sindreij</a>) and Andreas Sløgedal Løvland (<a href="https://github.com/andrlov" class="user-mention">@andrlov</a>), and has been a joint effort of the Norwegian University of Science and Technology and The Norwegian Public Roads Administration.</p>
 
