@@ -68,6 +68,8 @@
 
           <p>The road traffic is composed of 3 types of vehicles, personal cars, buses, and emergency vehicles. They all drive at different speeds, the bus is the largest vehicle, and the personal car and the emergency vehicle have the same size. The personal car is driving 60km/h, the bus 72km/h, and the emergency vehicle is driving 90km/h. The reason for having multiple different vehicles driving at different velocities, is that we wanted to show how flocking would work with diverse traffic. The 72% increase in throughput was achieved with diverse asymmetric traffic, while we only tested symmetric traffic with the personal cars. The throughput increase for the symmetric traffic was 56%. We do believe that some of the throughput increase is due to automatic vehicles being more effective than human drivers, and not solely the achievement of flocking alone.</p>
 
+          <img src="images/shareimage.jpg">
+
           <h2>
           <a id="implementation" class="anchor" href="#implementation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Implementation</h2>
           <p>For implementing the simulations we have used <a href="//www.unrealengine.com/what-is-unreal-engine-4" target="_blank">Unreal Engine 4</a>. We created a roughly 400m long road segment with curves where we had vehicles driving in both directions. The personal cars had to avoid each other, yield to emergency vehicles, yield to buses, and of course remain on the road the whole time. We also implemented an entrance ramp and demonstrated that steering behaviors can handle merging traffic. </p>

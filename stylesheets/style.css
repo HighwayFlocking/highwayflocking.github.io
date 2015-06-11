@@ -25,6 +25,11 @@ p {
     margin: 0 0 15px;
 }
 
+.container img {
+    width: 500px;
+    max-width: 100%;
+}
+
 /* Customize container */
 @media (min-width: 768px) {
   .container {
